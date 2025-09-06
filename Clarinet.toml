@@ -9,6 +9,10 @@ requirements = []
 path = 'contracts/FileTag.clar'
 clarity_version = 3
 epoch = 3.1
+[contracts.FileShareExpiry]
+path = 'contracts/FileShareExpiry.clar'
+clarity_version = 3
+epoch = 3.1
 [repl.analysis]
 passes = ['check_checker']
 
